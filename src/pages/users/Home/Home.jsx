@@ -4,7 +4,9 @@ import styles from './Home.module.scss';
 const cx = classNames.bind(styles);
 
 function Home() {
-    return ( <p>Home</p> );
+    return ( 
+    <div className={cx('md:container')}>Home</div> 
+    );
 }
 
 export default Home;
